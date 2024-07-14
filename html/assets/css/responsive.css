@@ -1,0 +1,127 @@
+@media screen and (max-width: 991px) {
+
+    /* ========Navbar Responsiveness at 991 px ======= */
+    .show,
+    .open-aside {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .navbar-nav .nav-item {
+        list-style: none;
+    }
+
+    /* ========= 1.1 Hero Section Rresponsiveness at 991px Start ========== */
+    #Hero h1 {
+        font-size: 74px;
+        line-height: 80px;
+    }
+
+    #Hero .carousel-item div:first-child {
+        margin: 100px 40px;
+        gap: 10px;
+    }
+
+    #Hero .carousel-item div:first-child p {
+        font-size: 18px;
+    }
+
+    #Hero .carousel-item div:first-child a {
+        font-size: 20px;
+    }
+
+    #Watches {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* ========= 1.1 Hero Section Rresponsiveness at 768px Start ========== */
+    #Hero h1 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    #Hero .carousel-item div:first-child {
+        margin: 100px 40px;
+        gap: 0px;
+    }
+
+    #Hero .carousel-item div:first-child p {
+        font-size: 16px;
+        padding: 0px 160px 0px 0px;
+    }
+
+    #Hero .carousel-item div:first-child a {
+        font-size: 14px;
+    }
+
+    /* ========= 1.1 Hero Footer Section Rresponsiveness at 768px Start ========== */
+    #Herofooter {
+        margin-top: 15px;
+        padding: 10px 0px;
+    }
+
+    #Herofooter div {
+        margin-top: 10px;
+        width: 135px;
+    }
+
+    #Herofooter p {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    #Herofooter figure {
+        width: 50px;
+        height: 50px;
+    }
+
+    #Watches {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* ========= 1.1 Hero Section Rresponsiveness at 600px Start ========== */
+    #Hero .carousel-item div:first-child p {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /* ========= 1.1 Hero Section Rresponsiveness at 400px Start ========== */
+    #Hero h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+/* <!-- ============ 2.4 products Section ============== --> */
+@media screen and (max-width: 480px) {
+    #Hero .carousel-item div:first-child {
+        margin: 50px 30px
+    }
+
+    #Products-card .card {
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #Products-card .card {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* <!-- ============ 2.4 products Section end============== --> */
